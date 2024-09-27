@@ -11,7 +11,7 @@ Once the model is built and refined, it will be used to predict sales prices as 
 
 ### Datasets
 
-Dataset: AmesHousing.txt (original), also referred to as ames_clean.csv (cleaned up version).
+Dataset: `AmesHousing.txt` (original), also referred to as `ames_clean.csv` (cleaned up version).
 All features below are part of this dataset's clean version.
 
 |Feature|Type|Description|
