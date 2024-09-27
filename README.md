@@ -127,5 +127,5 @@ Complete and thorough analysis in various Jupyter notebooks are located below:<b
 
 ### Presentation
 
-Accompanying presentation in PDF format is located [here](./presentation/project_01.pdf).
+Accompanying presentation in PDF format is located [here](./presentation/project_02.pdf).
 
