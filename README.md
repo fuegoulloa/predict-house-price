@@ -7,7 +7,7 @@ The model will utilize multiple linear regression techniques, and the model's pe
 Once the model is built and refined, it will be used to predict sales prices as part of a Kaggle challenge.
 
 
----
+-----
 
 ### Datasets
 
@@ -15,9 +15,7 @@ Dataset: AmesHousing.txt (original), also referred to as ames_clean.csv (cleaned
 All features below are part of this dataset's clean version.
 
 |Feature|Type|Description|
-
 |---|---|---|
-
 |**ID**|_object_|Observation number.  String format, no units.|
 |**PID**|_object_|Parcel identification number.  String format, no units.|
 |**MS SubClass**|_int_|Type of dwelling.  Integer format, no units.|
