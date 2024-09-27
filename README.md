@@ -102,21 +102,25 @@ All features below are part of this dataset's clean version.
 
 ### Summary
 
-Based on the previous EDA exercise, it is apparent that the available data supports the initial assumption.  That is, if a developing/poor country gets foreign aid, then it has the potential to use that assistance to spur overall development and economic growth.  This growth eventually leads to increased wealth shared across the population, which has a positive impact on life expectancy.<br><br>
-Although the data shows examples in support of the hypothesis, it is not universal.  Some aid-receiving countries have been unable to replicate the success of its peers. Without further analysis, one cannot draw definite conclusions.<br><br>
-One hypothesis that can be explored in future iterations of this exercise is looking into other variables, such as implemented policies, governmental corruption, incidence of conflict, etc. in order to determine the key differentiator between aid-receiving countries that succeed vs. those that cannot escape poverty.  That, obviously, is beyond the scope of this analysis.
+Based on exploratory data analysis and the multiple linear regression models that were built, the initial assumption that square footage is the main driver used to predict the final sale price of a home is not very strong.  There is some correlation for sure, but the final sale price is not entirely predicated on it.  The model that was built and the iterations that followed seem to indicate that different house features work in synergy, along with available space (square footage), to account for most variability on the final sale price.<br>
+Given the number of features available, it is worth continuing to explore different combinations and transformation techniques in order to fine tune the model to the point of being able to accurately predict most, if not all of the variability in the sale price. Real estate agents and homeowners would find such tool quite appealing.
+
 
 ---
 
 ### Recommendation
 
-Organizations that administer aid funds should use successful countries such as Chile or Singapore as benchmarks, and then based on each country's demographic profile and economic profile, adapt those benchmarks to local conditions. At the same time, these organizations should also study the reasons why some countries cannot kick the aid habit, such as Afghanistan or Uganda, so as to not replicate those failures.
+First, continue fine-tuning the model by studying correlations between the various neighborhoods and the type of housing stock available in each one.  A summary of the most prevalent features per neighborhood may yield interesting insights.  The focus on the neighborhoods is because of the location mantra that exists in the US real estate market.  This specific level of detail requires way more time than currently available for this project, but it should be revisited.  Second, continue to find the right balance between bias/variance by selecting and transforming key features.
 
 ---
 
 ### Technical Report
 
-Complete and thorough analysis in a Jupyter notebook is located [here](./code/starter-code-ulloa.ipynb).
+Complete and thorough analysis in various Jupyter notebooks are located below:<br> 
+[01_Intro_and_Cleaning](./code/01_Intro_and_Cleaning.ipynb).<br>
+[02_EDA_and_Visualizations](./code/02_EDA_and_Visualizations.ipynb).<br>
+[03_Preprocessing_and_Model_Fitting](./code/03_Preprocessing_and_Model_Fitting.ipynb).<br>
+[04_Kaggle_Submission](./code/04_Kaggle_Submission.ipynb).<br>
 
 ---
 
